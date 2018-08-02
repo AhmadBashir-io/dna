@@ -1,0 +1,198 @@
+body{
+        margin: 0;
+        padding: 0;
+}
+.background{
+        background: url('../img/dna-hero.png') no-repeat center ;
+        background-size: cover;
+}
+/* #services{
+        
+        background: url('../img/cool-background.svg') no-repeat center ;
+        background-size: cover;
+} */
+#particles-js{
+        height: 600px;
+        background: linear-gradient(270deg, rgba(32, 183, 190, 0.514),  rgb(50, 15, 82));
+        background-size: 200% 200%;
+        -webkit-animation: AnimationName 48s ease infinite;
+        -moz-animation: AnimationName 48s ease infinite;
+        animation: AnimationName 48s ease infinite;
+
+}
+
+.dna-card{
+        height: 100%;
+        transition: .3s ease-in-out;
+}
+.dna-card:hover{
+        border-radius: 10px;
+        box-shadow: 0px 0px 35px rgba(95, 73, 95, 0.199);
+}
+.center-box{
+        max-width: 520px;
+        padding: 5px;
+        top: 200px;
+        height: 200px;
+        left: 140px;
+        position: absolute;
+
+}
+.menu-btn{
+        float: right;
+}
+#close-icon{
+        display: none;
+}
+.sidebar{
+        right: -175px;
+        float: right;
+        position: absolute;
+        z-index: 9999;
+        background: #fff;
+        width: 175px;
+        padding: 40px 10px;
+        border-radius: 60px 0px 0px 60px;
+        height: 100%;
+        position: fixed;
+        transition-delay: 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        box-shadow: 0px 0px 35px rgba(95, 73, 95, 0.199);
+
+}
+.sidebar a{
+        color: rgb(122, 108, 136);
+        padding: 10px 25px;
+        text-align: left;
+        font-weight: 100 !important;
+        border-radius: 8px;
+        transition-delay: 0.4s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        border-left: 2px solid #fff;
+
+
+}
+.sidebar a:hover{
+        color: rgb(30, 169, 177);
+        border-left: 2px solid rgb(30, 169, 177);
+        box-shadow: 0px 0px 35px rgba(95, 73, 95, 0.199);
+
+}
+
+.hamburger-inner{
+        color: #fff;
+}
+.logo-text{
+        float: left;
+        font-family: 'Montserrat', sans-serif ;
+        font-weight: 100;
+        font-size: 28px;
+        margin: 11px 15px 0px 0px ;
+        color: rgba(255, 255, 255,1);
+
+}
+.light{
+        text-align: left!important;
+        font-size: 18px !important;
+        font-weight: 100 !important;
+}
+.text-card{
+        font-family: 'Montserrat', sans-serif ;
+        font-weight: 100;
+        font-size: 16px;
+        padding: 0px 40px;
+        color: rgb(122, 108, 136);
+        text-align: left;
+}
+.column{
+        padding: 80px 20px;
+}
+.item-img{
+        width: 70%;
+        height: 70%;
+        margin: 5px 0px 5px 40px; 
+}
+.icon-img{
+        width: 40%;
+        height: 40%;
+        margin: 5px ;
+}.icon{
+        color: rgb(32, 183, 190) !important;
+}
+
+.icon-title{
+        text-align: center;
+        font-size: 15px;
+        font-weight: 100;
+        color: rgb(32, 183, 190);
+}
+.medium{
+        font-size: 40px; 
+}
+.intro-text{
+
+        font-family: 'Montserrat', sans-serif ;
+        font-weight: 100;
+        font-size: 18px;
+        color: rgba(255, 255, 255,1);
+        margin: 20px 20px 5px 5px; 
+}
+.title{
+        font-family: 'Montserrat', sans-serif ;
+        font-weight: 800;
+        font-size: 35px;
+        color: rgba(255, 255, 255,1);
+}
+.subtitle{
+        font-family: 'Montserrat', sans-serif ;
+        font-weight: 300;
+        font-size: 24px;
+        color: rgba(255, 255, 255,1);
+}
+.body-title{
+        color: rgb(75, 24, 126);
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 24px;
+        font-weight: 400;
+        text-align: center;
+}
+
+.card-title{
+        color: rgb(75, 24, 126);
+        font-family: 'Montserrat', sans-serif ;
+        font-size: 20px;
+        font-weight: 400;
+}
+.logo-container{
+        padding: 20px 105px 10px 75px; 
+}
+.logo{
+        width: 63px;
+        height: 63px;
+}
+.nav{
+        padding: 5px;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.71),  rgb(42, 13, 0, 0));
+}
+.header-main{
+        padding: 20px 70px;
+}
+
+@-webkit-keyframes AnimationName {
+        0%{background-position:0% 41%}
+        50%{background-position:100% 60%}
+        100%{background-position:0% 41%}
+    }
+    @-moz-keyframes AnimationName {
+        0%{background-position:0% 41%}
+        50%{background-position:100% 60%}
+        100%{background-position:0% 41%}
+    }
+    @keyframes AnimationName { 
+        0%{background-position:0% 41%}
+        50%{background-position:100% 60%}
+        100%{background-position:0% 41%}
+    }
